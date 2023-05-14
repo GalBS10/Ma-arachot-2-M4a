@@ -1,4 +1,6 @@
 #include "Cowboy.hpp"
+#include "Point.hpp"
+#include "Character.hpp"
 
 
 Cowboy::Cowboy(string _name, Point _place)
