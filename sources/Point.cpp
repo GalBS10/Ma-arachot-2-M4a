@@ -1,6 +1,3 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include <iostream>
 #include "Point.hpp"
 
 using namespace std;

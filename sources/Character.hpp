@@ -1,6 +1,4 @@
-#include <stdlib.h>
-#include <stdio.h>
-#include "Point.cpp"
+#include "Point.hpp"
 
 class Character
 {

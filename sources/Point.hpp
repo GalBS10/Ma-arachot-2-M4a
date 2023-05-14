@@ -1,5 +1,7 @@
-#include <stdlib.h>
-#include <stdio.h>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+using namespace std;
 
 class Point
 {

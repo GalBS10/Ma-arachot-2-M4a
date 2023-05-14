@@ -6,7 +6,7 @@ OldNinja::OldNinja(string _name, Point _place) : Ninja( _place, 150, _name, 8)
 }
 string OldNinja::print()
 {
-    cout << "OldNinja" << endl;
+    return "";
 }
 void OldNinja::move(Character *enemy)
 {

@@ -1,5 +1,6 @@
 #include "Cowboy.hpp"
 
+
 Cowboy::Cowboy(string _name, Point _place)
 : Character(_place,110,_name)
 {
@@ -8,7 +9,7 @@ Cowboy::Cowboy(string _name, Point _place)
 
 string Cowboy::print()
 {
-    cout << "Cowboy" << endl;
+    return "";
 }
 
 int Cowboy::getBullets()
