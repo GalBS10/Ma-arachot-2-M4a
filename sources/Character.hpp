@@ -1,3 +1,5 @@
+#ifndef CHARACTER
+#define CHARACTER
 #include "Point.hpp"
 
 class Character
@@ -16,4 +18,5 @@ public:
     virtual string print();
 
 };
+#endif
 

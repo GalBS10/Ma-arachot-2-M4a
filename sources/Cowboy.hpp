@@ -1,4 +1,7 @@
+#ifndef COWBOY
+#define COWBOY
 #include "Character.hpp"
+#include "Point.hpp"
 
 class Cowboy : public Character
 {
@@ -12,4 +15,4 @@ public:
     bool hasboolets();
     void reload();
 };
-
+#endif

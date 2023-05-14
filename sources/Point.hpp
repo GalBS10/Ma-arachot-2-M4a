@@ -1,3 +1,5 @@
+#ifndef POINT
+#define POINT
 #include <iostream>
 #include <fstream>
 #include <sstream>
@@ -16,5 +18,6 @@ public:
     double getX();
     double getY();
 };
+#endif
 
 

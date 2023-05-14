@@ -1,4 +1,7 @@
+#ifndef OLDNINJA
+#define OLDNINJA
 #include "Ninja.hpp"
+#include "Point.hpp"
 
 class OldNinja : public Ninja
 {
@@ -11,3 +14,4 @@ class OldNinja : public Ninja
 
 
 };
+#endif

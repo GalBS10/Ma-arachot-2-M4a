@@ -5,7 +5,16 @@ Ninja::Ninja(Point _place, int _HP, string _name, int _speed) : Character(_place
     speed = _speed;
 }
 
-void slash(Character* enemy)
+void Ninja::slash(Character* enemy)
+{
+
+}
+string Ninja::print()
+{
+    return "";
+}
+
+void Ninja::move(Character *enemy)
 {
 
 }

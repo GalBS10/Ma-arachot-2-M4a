@@ -1,4 +1,7 @@
+#ifndef NINJA
+#define NINJA
 #include "Character.hpp"
+#include "Point.hpp"
 
 class Ninja : public Character
 {
@@ -10,5 +13,6 @@ public:
     virtual string print();
     virtual void move(Character *enemy);
 };
+#endif
 
 

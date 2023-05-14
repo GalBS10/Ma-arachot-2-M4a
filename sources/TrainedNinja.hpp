@@ -1,17 +1,16 @@
-#ifndef YOUNGNINJA
-#define YOUNGNINJA
+#ifndef TRAINEDNINJA
+#define TRAINEDNINJA
 #include "Ninja.hpp"
 #include "Point.hpp"
 
-class YoungNinja : public Ninja
+class TrainedNinja : public Ninja
 {
     private:
-    
+        
     public:
-        YoungNinja(string name, Point place);
+        TrainedNinja(string name, Point place);
         virtual string print();
         virtual void move(Character *enemy);
     
 };
 #endif
-
