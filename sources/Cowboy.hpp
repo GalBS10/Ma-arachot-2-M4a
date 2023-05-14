@@ -5,8 +5,11 @@ class Cowboy : public Character
 private:
     int bullets_amount;
 public:
-    Cowboy(Point _place, int _HP, string _name, int _bullets_amount);
-    void print();
+    Cowboy(string _name,Point _place );
+    virtual string print();
     int getBullets();
+    void shoot(Character* enemy);
+    bool hasboolets();
+    void reload();
 };
 

@@ -15,7 +15,7 @@ public:
     void hit(int damage);
     string getName();
     Point getLoactaion();
-    // void print();
+    virtual string print();
 
 };
 
