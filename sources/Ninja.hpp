@@ -8,9 +8,9 @@ class Ninja : public Character
 private:
     int speed;
 public:
-    Ninja( Point _place, int HP, string _name, int _speed);
+    Ninja( Point _place, int hitpoint, string _name, int _speed);
     void slash(Character* enemy);
-    virtual string print();
+    string print() override;
     virtual void move(Character *enemy);
 };
 #endif

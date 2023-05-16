@@ -9,8 +9,8 @@ class TrainedNinja : public Ninja
         
     public:
         TrainedNinja(string name, Point place);
-        virtual string print();
-        virtual void move(Character *enemy);
+        string print() override;
+        void move(Character *enemy) override;
     
 };
 #endif

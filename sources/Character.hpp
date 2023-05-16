@@ -1,26 +1,28 @@
 #ifndef CHARACTER
 #define CHARACTER
+
 #include "Point.hpp"
-#include "string"
+#include <string>
 
-using namespace std;
-
-class Character
-{
+class Character {
 private:
     Point place;
-    int HP;//hit point
-    string name;
+    int HP; // hit point
+    std::string name;
+
 public:
-    Character(Point _place, int _HP, string _name);
+    Character(Point _place, int hitpoint, std::string _name);
     virtual ~Character();
+    Character(const Character& other);
+    Character& operator=(const Character& other); // Copy assignment operator
+    Character(Character&& other) noexcept; // Move constructor
+    Character& operator=(Character&& other) noexcept; // Move assignment operator
     bool isAlive();
     double distance(Character* other);
     void hit(int damage);
-    string getName();
+    std::string getName();
     Point getLoactaion();
-    virtual string print();
-
+    virtual std::string print();
 };
-#endif
 
+#endif

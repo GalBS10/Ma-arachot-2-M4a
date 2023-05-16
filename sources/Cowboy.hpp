@@ -9,7 +9,7 @@ private:
     int bullets_amount;
 public:
     Cowboy(string _name,Point _place );
-    virtual string print();
+    string print() override;
     int getBullets();
     void shoot(Character* enemy);
     bool hasboolets();
